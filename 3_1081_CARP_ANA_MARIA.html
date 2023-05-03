@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proiect Multimedia</title>
+    <link rel = "stylesheet" href="3_1081_CARP_ANA_MARIA.css">
+</head>
+<body>
+    <h1>Proiect Multimedia: Vizualizarea unui set de date</h1>
+    <h2>realizat de Carp Ana-Maria, grupa 1081</h2>
+
+    <br> <br>
+ 
+
+     <!--Cerinta 1-->
+     <h2> Selecteaza tara si indicatorul, iar apoi apasa pe buton in functie de preferinta </h2>
+     <div class="flex-container">
+        <div class="selectori">
+            
+        <!-- selectori pentru tara, indicator pt realizarea graficului SVG -->
+        <select id="Tari"> </select>
+        <select id="Indicatori"></select>
+
+    
+
+        </div>
+    </div>
+    
+    <br> <br>
+ 
+     <button id="buton_barChart_svg">Bar chart</button>
+     <button id="buton_lineChart_svg">Line chart</button>
+     <br>
+     <svg id="grafic"></svg>
+
+    <br><br>
+    
+    <!--Cerinta 6-->
+    
+    <h2> Selecteaza anul, iar apoi apasa pe buton pentru a afisa tabel cu toate datele din acel an </h2>
+    <div class="flex-container">
+        <div class="selectori">
+            <select id="Ani" ></select>
+        </div>
+    </div>
+    <br> <br>
+    <button id="buton_tabel"> Tabel pentru anul selectat </button>
+
+    <h2 id="legenda">Legenda tabel</h2>
+    
+
+    <script src="3_1081_CARP_ANA_MARIA.js"></script>
+</body>
+</html>
